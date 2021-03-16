@@ -1,0 +1,8 @@
+selenium_env\Scripts\activate.bat запустить окружение Selenium
+
+cd environments каталог с окружением
+
+python запуск питоновского интерпритатора
+exit()   выход из интерпритатора
+
+chromedriver вызывать только из запущеного окружения Seleniuma
