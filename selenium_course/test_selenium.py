@@ -3,15 +3,20 @@ import time
 
 try:
     browser = webdriver.Chrome()
-    browser.get("http://suninjuly.github.io/registration2.html")
+    browser.get("http://suninjuly.github.io/registration1.html")
 
     input1 = browser.find_element_by_css_selector("div.first_block input.first")
     input1.send_keys("traTATATA")
+
+    time.sleep(2)
     input2 = browser.find_element_by_css_selector("div.first_block input.second")
     input2.send_keys("123")
+
+    time.sleep(2)
     input3 = browser.find_element_by_css_selector("div.first_block input.third")
     input3.send_keys("Adwdawd@mail.tt")
 
+    time.sleep(2)
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
 

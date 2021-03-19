@@ -1,12 +1,16 @@
-expected_result = 11
-actual_result = 15
+a = "123"
 
 
-def test_input_text(expected_result, actual_result):
-    # ваша реализация, напишите assert и сообщение об ошибке
-    text = actual_result
-    assert text == expected_result, \
-        f"expected {expected_result}, got {actual_result}"
+def add():
+    pass
 
 
-test_input_text(expected_result, actual_result)
+#print(globals())
+
+#print("Imported from:", __name__)
+def main():
+    pass
+
+
+if __name__ == "__main__":
+    main()
