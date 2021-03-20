@@ -1,5 +1,5 @@
 x = "some_text"
-y = "some1"
+y = "some"
 
 
 def test_substring(full_string, substring):
