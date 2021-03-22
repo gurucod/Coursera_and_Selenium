@@ -28,4 +28,7 @@ class TestMainPage1():
         browser.get(link)
         browser.find_element_by_css_selector("button.favorite")
 
+
+# К маркировке xfail можно добавлять параметр reason.
+# Чтобы увидеть это сообщение в консоли, при запуске нужно добавлять параметр pytest -rx.
 #pytest -rx -v test_fixture10a.py
